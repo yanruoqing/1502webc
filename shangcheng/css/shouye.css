@@ -1,0 +1,32 @@
+@import "reset.css";
+.top {
+  width: 1024px;
+  height: 44px;
+  background: #323333;
+  margin: 0 auto;
+}
+.lun {
+  width: 1024px;
+  height: 350px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+.dian {
+  width: 1024px;
+  height: 45px;
+  background: #008000;
+  margin: 0 auto;
+}
+.tu {
+  width: 1024px;
+  height: 140px;
+  background: #666666;
+  margin: 0 auto;
+}
+.logo {
+  width: 1024px;
+  height: 126px;
+  background: #ffc0cb;
+  margin: 0 auto;
+  margin-top: 10px;
+}
