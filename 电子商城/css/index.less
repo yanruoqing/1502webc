@@ -1,0 +1,47 @@
+@import "reset.css";
+.whb(@w, @h, @b) {
+  width: @w;
+  height: @h;
+  background: @b;
+}
+.l{
+  float: left;
+}
+.r{
+  float: right;
+}
+.m{
+  margin: 0 auto;
+}
+.box{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height: 100%;
+  .header{
+    width: 100%;
+    height: 44px;
+    background: #323333;
+    border: 1px #4d3faa solid;
+    line-height: 44px;
+    position: relative;
+    .dao{
+      float: left;
+      width: 22px;
+      height: 21px;
+      background-position: 0 0;
+      position: absolute;
+      left: 30px;
+      top:10px;
+    }
+    .more{
+      float: right;
+      a{ float: right;}
+      
+    }
+    a{
+      background-image: url("../img/icon.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
