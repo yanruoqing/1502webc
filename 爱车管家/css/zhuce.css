@@ -1,0 +1,198 @@
+@import "reset.css";
+@charset "utf-8";
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html {
+  background: #f2f2f2;
+}
+.header {
+  width: 100%;
+  height: 4.4rem;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  position: relative;
+}
+.header a {
+  background: url(../img/zhu-1.jpg) no-repeat 0px center;
+  background-size: 11px auto;
+  padding-left: 15px;
+  line-height: 44px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  color: #ff9900;
+  font-size: 14px;
+  display: inline-block;
+}
+.header h1 {
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 14px;
+}
+.main {
+  width: auto;
+  height: auto;
+  background: #f2f2f2;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.main-1 {
+  width: auto;
+  height: 25rem;
+  background: null;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+}
+.main-1-1 {
+  width: 100%;
+  height: 48.5px;
+  background: null;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 5px 5px 0 0;
+  background: #ffffff url(../img/zhu-2.jpg) no-repeat 7px 16px;
+  background-size: 17px auto;
+}
+.main-1-1 label {
+  color: #666666;
+  width: 70px;
+  height: 16px;
+  background: null;
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-1-1 input {
+  border: none;
+  margin-left: 14px;
+}
+.main-1-2 {
+  width: 100%;
+  height: 48.5px;
+  background: null;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 5px 5px 0 0;
+  background: #ffffff url(../img/zhu-4.jpg) no-repeat 7px 16px;
+  background-size: 11px 16px;
+}
+.main-1-2 label {
+  color: #666666;
+  width: 70px;
+  height: 16px;
+  background: null;
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-1-2 input {
+  border: none;
+  margin-left: 14px;
+}
+.main-1-3 {
+  width: 100%;
+  height: 48.5px;
+  background: null;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 5px 5px 0 0;
+  background: #ffffff url(../img/zhu-3.jpg) no-repeat 7px 16px;
+  background-size: 13.5px 17px;
+}
+.main-1-3 label {
+  color: #666666;
+  width: 70px;
+  height: 16px;
+  background: null;
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-1-3 input {
+  border: none;
+  margin-left: 14px;
+}
+.main-1-4 {
+  width: 100%;
+  height: 48.5px;
+  background: null;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 5px 5px 0 0;
+  background: #ffffff url(../img/zhu-5.jpg) no-repeat 7px 16px;
+  background-size: 15px auto;
+}
+.main-1-4 label {
+  color: #666666;
+  width: 70px;
+  height: 16px;
+  background: null;
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-1-4 input {
+  border: none;
+  margin-left: 14px;
+}
+.main-1-5 {
+  width: 100%;
+  height: 52.8px;
+  background: null;
+  border-radius: 0 0 5px 5px ;
+  background: #ffffff url(../img/zhu-6.jpg) no-repeat 7px 16px;
+  background-size: 17px auto;
+}
+.main-1-5 span {
+  color: #666666;
+  width: 70px;
+  height: 16px;
+  background: null;
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-1-5 button {
+  width: 107px;
+  height: 40px;
+  background: #ff9900;
+  float: right;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.main-2 {
+  margin-top: 55px;
+  width: auto;
+  height: 44px;
+  background: #cccccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.main-2 a {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 100;
+}

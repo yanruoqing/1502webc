@@ -1,0 +1,61 @@
+@import "reset.css";
+@charset "utf-8";
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 4.85rem;
+  background: #f6f6f6;
+  border-top: 1px solid #DDDDDD;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer .a1 {
+  background: url(../img/wang-4.jpg) no-repeat center 5px;
+  background-size: 24px auto;
+  width: 24%;
+  height: 4.85rem;
+  background: null;
+  display: inline-block;
+  text-align: center;
+  padding-top: 28px;
+  color: #999999;
+}
+.footer .a2 {
+  background: url(../img/kehu-1.png) no-repeat center 5px;
+  background-size: 24px auto;
+  width: 24%;
+  height: 4.85rem;
+  background: null;
+  display: inline-block;
+  text-align: center;
+  padding-top: 28px;
+  color: #999999;
+}
+.footer .a3 {
+  background: url(../img/faxian-1.jpg) no-repeat center 5px;
+  background-size: 24px auto;
+  width: 24%;
+  height: 4.85rem;
+  background: null;
+  display: inline-block;
+  text-align: center;
+  padding-top: 28px;
+  color: #fd9263;
+}
+.footer .a4 {
+  background: url(../img/wang-2.jpg) no-repeat center 5px;
+  background-size: 24px auto;
+  width: 24%;
+  height: 4.85rem;
+  background: null;
+  display: inline-block;
+  text-align: center;
+  padding-top: 28px;
+  color: #999999;
+}

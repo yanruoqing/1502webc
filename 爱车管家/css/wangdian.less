@@ -1,0 +1,230 @@
+@charset "utf-8";
+@import "reset.css";
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box(@dir:column) {
+    display: flex;
+    flex-direction: @dir;
+}
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+html{
+    overflow: hidden;
+}
+body{
+    overflow-y: auto;
+     &::-webkit-scrollbar{
+       width: 0;
+   }
+}
+
+.header{
+    .whb(100%,auto,#f6f6f6);
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    a{
+        font-size: 16px;
+        line-height: 4.4rem;
+        color: #000000;
+    }
+}
+.main{
+    margin-bottom:4.85rem ;    
+    padding-top: 4.4rem;
+  
+    
+}
+.jin{
+    .whb(100%,auto,#e8f6ff);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.jin-1{
+    .whb(85px,85px,#53a1d8);
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+    a{
+        line-height: 85px;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+}
+.jin-2{
+    .whb(100%,15px,none);
+   
+}
+.sp1{
+    float: left;
+    color: #469ad4;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sp2{
+    float: right;
+    color: #469ad4;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.xiao{
+    .whb(100%,auto,#feeede);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.xiao-1{
+    .whb(85px,85px,#ff8a18);
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    a{
+        line-height: 85px;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+}
+.xiao-2{
+    .whb(100%,15px,none);
+   
+}
+.sp3{
+    float: left;
+    color: #ff8a18;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sp4{
+    float: right;
+    color: #ff8a18;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.cun{
+    .whb(100%,auto,#d5fbeb);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.cun-1{
+    .whb(85px,85px,#56c597);
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    a{
+        line-height: 85px;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+}
+.cun-2{
+    .whb(100%,15px,none);
+   
+}
+.sp5{
+    float: left;
+    color: #56c597;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sp6{
+    float: right;
+    color: #56c597;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.fang{
+    .whb(100%,auto,#a587bd);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.fang-1{
+    .whb(85px,85px,#644d9d);
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+    a{
+        line-height: 85px;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+}
+.fang-2{
+    .whb(100%,15px,none);
+   
+}
+.sp7{
+    float: left;
+    color: #644d9d;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sp8{
+    float: right;
+    color: #644d9d;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.footer{
+    .whb(100%,4.85rem,#f6f6f6);
+    border-top: 1px solid #DDDDDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    .a1{
+        background: url(../img/wang-4.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+       color: #999999;
+    }
+     .a2{
+        background: url(../img/wang-3.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #fd9263;
+    }
+     .a3{
+        background: url(../img/wang-1.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+       color: #999999;
+    }
+     .a4{
+        background: url(../img/wang-2.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #999999;
+    }
+}

@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import "reset.css";
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box(@dir:column) {
+    display: flex;
+    flex-direction: @dir;
+}
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html{
+    background: #f2f2f2;
+}
+//body{
+//  font-family:"\5FAE\8F6F\96C5\9ED1",tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+////  font-family:Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+//}
+.header{
+    .whb(100%,4.4rem,#ffffff);
+    border-bottom: 1px solid #dddddd;
+   text-align: center;
+   position: relative;
+    a{
+//      .whb(5rem,4.4rem,null);
+        background: url(../img/zhu-1.jpg) no-repeat 0px center;
+        background-size: 11px auto;
+        padding-left: 15px;
+        line-height: 44px;
+        position: absolute;
+        left: 10px;
+        top:0;
+        color: #ff9900;
+        font-size: 14px;
+        display: inline-block;
+        
+    }
+        h1{
+//        float: left;
+          text-align: center;
+            line-height: 4.4rem;
+            font-size: 14px;
+        }
+    }
+.main{
+    .whb(auto,auto,#f2f2f2);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.main-1{
+    .whb(auto,25rem,null);
+    border: 1px solid #DDDDDD;
+     border-radius: 5px;
+}
+.main-1-1{
+    .whb(100%,48.5px,null);
+    border-bottom: 1px solid #dddddd;
+    border-radius: 5px 5px 0 0;
+    background: #FFFFFF url(../img/zhu-2.jpg) no-repeat 7px 16px;
+    background-size: 17px auto;
+   label{
+       color: #666666;
+       .whb(70px,16px,null);
+       display: inline-block;
+       border-right: 1px solid #d9d9d9;
+       margin-left: 35px;
+       margin-top: 14px;
+       font-size: 14px;
+       line-height: 16px;
+   }
+   input{
+       border: none;
+       margin-left: 14px;
+   }
+}
+.main-1-2{
+    .whb(100%,48.5px,null);
+    border-bottom: 1px solid #dddddd;
+    border-radius: 5px 5px 0 0;
+    background: #FFFFFF url(../img/zhu-4.jpg) no-repeat 7px 16px;
+    background-size: 11px 16px;
+   label{
+       color: #666666;
+       .whb(70px,16px,null);
+       display: inline-block;
+       border-right: 1px solid #d9d9d9;
+       margin-left: 35px;
+       margin-top: 14px;
+       font-size: 14px;
+       line-height: 16px;
+   }
+   input{
+       border: none;
+       margin-left: 14px;
+   }
+}
+.main-1-3{
+    .whb(100%,48.5px,null);
+    border-bottom: 1px solid #dddddd;
+    border-radius: 5px 5px 0 0;
+    background: #FFFFFF url(../img/zhu-3.jpg) no-repeat 7px 16px;
+    background-size: 13.5px 17px;
+   label{
+       color: #666666;
+       .whb(70px,16px,null);
+       display: inline-block;
+       border-right: 1px solid #d9d9d9;
+       margin-left: 35px;
+       margin-top: 14px;
+       font-size: 14px;
+       line-height: 16px;
+   }
+   input{
+       border: none;
+       margin-left: 14px;
+   }
+}
+.main-1-4{
+    .whb(100%,48.5px,null);
+    border-bottom: 1px solid #dddddd;
+    border-radius: 5px 5px 0 0;
+    background: #FFFFFF url(../img/zhu-5.jpg) no-repeat 7px 16px;
+    background-size: 15px auto;
+   label{
+       color: #666666;
+       .whb(70px,16px,null);
+       display: inline-block;
+       border-right: 1px solid #d9d9d9;
+       margin-left: 35px;
+       margin-top: 14px;
+       font-size: 14px;
+       line-height: 16px;
+   }
+   input{
+       border: none;
+       margin-left: 14px;
+   }
+}
+.main-1-5{
+    .whb(100%,52.8px,null);
+    
+    border-radius:0 0 5px 5px ;
+    background: #FFFFFF url(../img/zhu-6.jpg) no-repeat 7px 16px;
+    background-size: 17px auto;
+   span{
+       color: #666666;
+       .whb(70px,16px,null);
+       display: inline-block;
+       border-right: 1px solid #d9d9d9;
+       margin-left: 35px;
+       margin-top: 14px;
+       font-size: 14px;
+       line-height: 16px;
+   }
+   button{
+       .whb(107px,40px,#ff9900);
+       float: right;
+       border-radius: 5px;
+       color: #FFFFFF;
+       border: none;
+       outline: none;
+       margin-top: 7px;
+       margin-right: 10px;
+   }
+}
+.main-2{
+    margin-top: 55px;
+    .whb(auto,44px,#cccccc);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    a{
+        font-size: 20px;
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+}

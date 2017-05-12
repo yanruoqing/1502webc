@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import "reset.css";
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box(@dir:column) {
+    display: flex;
+    flex-direction: @dir;
+}
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html{
+    overflow: hidden;
+}
+body{
+    overflow-y: auto;
+     &::-webkit-scrollbar{
+       width: 0;
+   }
+}
+.header{
+    .whb(100%,auto,#ffffff); 
+     padding-top: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header-1{
+    .whb(182px,28px,#ffffff);
+    border-radius: 12px;
+    border: 2px solid #ff7e00;
+    margin: 0 auto;
+}
+.a1{
+    .whb(50%,28px,#ffffff);
+    text-align: center;
+    display: inline-block;
+    float: left;
+    line-height: 28px;
+    color: #ff7e00;
+    border-radius: 10px 0px 0px 10px;
+}
+.a2{
+    .whb(50%,28px,#ff7e00);
+    text-align: center;
+    display: inline-block;
+    float: left;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-radius:0px 10px 10px 0;
+}
+.main{
+    .whb(100%,auto,#FFFFFF);
+   padding-top: 28px;
+  
+}
+.main-1{
+    .whb(100%,132px,#FFFFFF);
+    background: url(../img/kehu-3.png)no-repeat;
+    background-size: 100%;
+    
+}
+.main-2{
+    .whb(100%,60px,#FFFFFF);
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    
+    a{
+        color: #FF8A18;
+    }
+}
+.main-3{
+    .whb(100%,90px,#FFFFFF);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 37.5px;
+    
+    a{
+        .whb(217px,37.5px,#ff7e00);
+        display:inline-block;
+        color: #fdfef8;
+        border-radius: 25px;
+        font-size: 16px;
+        box-shadow:0px 0px 0px 6px #ffefe0 ;
+    }
+}
+.main-4{
+    .whb(100%,auto,#ffffff);
+    margin-bottom: 15px;
+}
+.main-4-1{
+    .whb(90%,125px,#ffffff);
+    border:1px dotted #DDDDDD;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: url(../img/kehu-4_03.png) no-repeat 0 0;
+    background-size:47px,36.5px ; 
+    
+}
+.main-4-1-1{
+    .whb(100%,31.5px,none);
+    h2{
+        float: left;
+        padding-left: 50px;
+        font-size: 12px;
+        line-height: 31.5px;
+    }
+    a{
+        width: 60%;
+        float: left;
+        font-size: 14px;
+        line-height: 31.5px;
+        margin-left: 10px;
+        color: #000000;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+}
+.main-4-1-2{
+    .whb(100%,31.5px,none);
+    h2{
+        float: left;
+        padding-left: 26px;
+        font-size: 12px;
+        line-height: 31.5px;
+    }
+    a{
+        float: left;
+        font-size: 14px;
+        line-height: 31.5px;
+        margin-left: 10px;
+        color: #000000;
+    }
+}
+.main-4-1-3{
+    .whb(100%,31.5px,none);
+    h2{
+        float: left;
+        padding-left: 50px;
+        font-size: 12px;
+        line-height: 31.5px;
+    }
+    a{
+        float: left;
+        font-size: 14px;
+        line-height: 31.5px;
+        margin-left: 10px;
+        color: #FF7E00;
+    }
+}
+.main-5{
+    .whb(100%,auto,#ffffff);
+    margin-bottom: 55px;
+}
+.footer{
+    .whb(100%,4.85rem,#f6f6f6);
+    border-top: 1px solid #DDDDDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    .a1{
+        background: url(../img/kehu-2.png)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 24px;
+        color: #fd9263;
+    }
+     .a2{
+        background: url(../img/kehu-1.png)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 24px;
+        color: #999999;
+    }
+     .a3{
+        background: url(../img/wang-1.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+         color: #999999;
+    }
+     .a4{
+        background: url(../img/wang-2.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #999999;
+    }
+}

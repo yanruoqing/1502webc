@@ -1,0 +1,51 @@
+@import "reset.css";
+@charset "utf-8";
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.header {
+  width: 100%;
+  height: 5rem;
+  background: none;
+}
+.main {
+  width: 100%;
+  height: 250px;
+  background: none;
+  background: url(../img/1-1.jpg) no-repeat center;
+}
+.footer {
+  width: 100%;
+  height: 12rem;
+  background: none;
+  position: fixed;
+  bottom: 0;
+}
+.but-l {
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #0071c1;
+  border-radius: 25px;
+  float: left;
+  margin-left: 40px;
+  color: #2ca3ce;
+  font-size: 16px;
+  outline: none;
+}
+.but-r {
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #0071c1;
+  float: right;
+  border-radius: 25px;
+  margin-right: 40px;
+  color: #2ca3ce;
+  font-size: 16px;
+  outline: none;
+}

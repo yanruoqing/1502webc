@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import "reset.css";
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box(@dir:column) {
+    display: flex;
+    flex-direction: @dir;
+}
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+.footer{
+    .whb(100%,4.85rem,#f6f6f6);
+    border-top: 1px solid #DDDDDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    .a1{
+        background: url(../img/wang-4.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #999999;
+    }
+     .a2{
+        background: url(../img/kehu-1.png)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #999999;
+    }
+     .a3{
+        background: url(../img/faxian-1.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+         color: #fd9263;
+    }
+     .a4{
+        background: url(../img/wang-2.jpg)no-repeat center 5px;
+        background-size: 24px auto;
+        .whb(24%,4.85rem,null);
+        display: inline-block;
+        text-align: center;
+        padding-top: 28px;
+        color: #999999;
+    }
+}
